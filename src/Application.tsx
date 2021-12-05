@@ -1,6 +1,6 @@
 type NameTagProps = {
 
-  
+
   name: string;
 };
 
