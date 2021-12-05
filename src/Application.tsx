@@ -1,10 +1,8 @@
 type NameTagProps = {
-
-
   name: string;
 };
 
-const NameTag = function ({ name }: NameTagProps) {
+const NameTag = function({name}: NameTagProps) {
   return (
     <main>
       <header>
@@ -14,12 +12,13 @@ const NameTag = function ({ name }: NameTagProps) {
       <section className="display-name">
         <p>{name}</p>
       </section>
+
       <footer />
     </main>
   );
 };
 
-const Application = function () {
+const Application = function() {
   return <NameTag name="Steve" />;
 };
 
