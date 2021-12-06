@@ -35,16 +35,17 @@
       }
     ],
     "react/destructuring-assignment": [1, "never"],
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "js": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never"
-      }
-    ],
+    // resolved by eslint-config-airbnb-typescript
+    // "import/extensions": [
+    //   "error",
+    //   "ignorePackages",
+    //   {
+    //     "js": "never",
+    //     "jsx": "never",
+    //     "ts": "never",
+    //     "tsx": "never"
+    //   }
+    // ],
     "import/no-unresolved": [2, {"commonjs": true, "amd": true}]
   }
 }
